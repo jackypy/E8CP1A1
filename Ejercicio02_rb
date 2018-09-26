@@ -1,0 +1,11 @@
+def cuenta_lineas
+  f = File.open('peliculas.txt','r')
+  c = f.readlines.length
+  f.close
+  c
+end
+
+print cuenta_lineas
+
+
+#siempre queda la ultima linea
